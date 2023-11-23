@@ -1,0 +1,26 @@
+sed -n '1p' filename---prints first line
+$p last line
+$d deletes last line
+1,3p prints 1 to 3 line
+'3p; 7p ;11p ' prints 3rd line 7th line and 11th line
+-i '/pattern/d' --deletes matching pattern
+
+
+
+zip filename.zip filename to compress
+unzip filename.zip
+
+zip -r archive.zip folder_to_compress
+unzip archive.zip
+
+zip archive.zip file1.txt file2.txt
+
+
+gzip filename
+guznip filename.gz
+
+tar -cvf archive.tar files_to_archive
+tar -cvf archive.tar folder_to_archive
+gzip archive.tar---> archive.tar.gz
+
+tar -xvf archive.tar.gz
