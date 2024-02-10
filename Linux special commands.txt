@@ -24,3 +24,13 @@ tar -cvf archive.tar folder_to_archive
 gzip archive.tar---> archive.tar.gz
 
 tar -xvf archive.tar.gz
+
+
+how to add user directly to a group while creating
+useradd username -g groupname--default group
+useradd username -G groupname adds secondary group
+
+sudo useradd -m -d /path/to/home/directory -G existing_group -p $(openssl passwd -1 your_password) username
+
+adding user including home directory 
+adding to a existing group and assigning password at the same time 
