@@ -34,3 +34,26 @@ sudo useradd -m -d /path/to/home/directory -G existing_group -p $(openssl passwd
 
 adding user including home directory 
 adding to a existing group and assigning password at the same time 
+
+/etc/passwd userslist
+/etc/gshadow group list
+/etc/shadow encrypted password storage of users
+
+net-tools ping ifconfig ip addrshow
+process top
+uname -a
+storage lsblk df df -h 
+sort grep tail head sed 
+cat touch mkdir chown chmod
+usermod -g -G -L -U 
+gpasswd -a -d -A -m
+tree
+who whoami sudo -i
+su username 
+passwd username
+/se nu /se nonu :wq esc+A O o x w 
+yy p ndd 
+grep -o -n -i filename
+
+
+
